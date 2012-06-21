@@ -1,4 +1,0 @@
-o orb.png
-o next.png
-o next-inactive.png
-o worrywonder.jpg
