@@ -1,0 +1,7 @@
+planarPuzzle "You are Not Dead" 800 600 worrywonder 0
+vertex lefttop 100 100
+vertex righttop 500 100
+vertex leftbot 100 500
+vertex rightbot 500 500
+edge lefttop rightbot
+edge righttop leftbot

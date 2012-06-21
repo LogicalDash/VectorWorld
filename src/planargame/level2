@@ -1,0 +1,15 @@
+planarPuzzle "Where do you see yourself in five years?" 800 600 blank 0
+vertex tl 200 50
+vertex tr 400 50
+vertex key 100 300
+vertex farrighttop 500 500
+vertex farrightbot 500 550
+vertex bl 200 550
+edge tl tr
+edge tl farrighttop
+edge tl farrightbot
+edge key tr
+edge key farrighttop
+edge key farrightbot
+edge bl tl
+edge bl tr
