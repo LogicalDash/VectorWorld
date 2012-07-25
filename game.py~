@@ -1,0 +1,22 @@
+import sys
+import os
+import pyglet
+import windowframe
+import gamestate
+import gameframe
+import graphics
+
+levelfile = None
+for arg in sys.argv:
+    try:
+        levelfile = file(arg, "r")
+
+version = 0
+
+graphics.loadSprites()
+gamestate.init()
+gamestate.loadLevel(levelfile)
+gameframe.init()
+windowframe.init()
+
+pyglet.app.run()

@@ -1,0 +1,7 @@
+import thing
+
+class Place:
+    roads = []
+
+    def __init__(self, roads):
+        self.roads = roads

@@ -1,0 +1,4 @@
+things = {}
+
+class Thing:
+    pass

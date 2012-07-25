@@ -1,0 +1,9 @@
+from pyglet import window, graphics
+import gameframe
+import gamestate
+
+window = window.Window()
+
+@window.event
+def on_draw():
+    gamestate.update()
